@@ -1,0 +1,6 @@
+c:\users\osipenko\documents\visual studio 2015\Projects\ListAndCollection\ListAndCollection\bin\Debug\ListAndCollection.exe.config
+c:\users\osipenko\documents\visual studio 2015\Projects\ListAndCollection\ListAndCollection\bin\Debug\ListAndCollection.exe
+c:\users\osipenko\documents\visual studio 2015\Projects\ListAndCollection\ListAndCollection\bin\Debug\ListAndCollection.pdb
+c:\users\osipenko\documents\visual studio 2015\Projects\ListAndCollection\ListAndCollection\obj\Debug\ListAndCollection.csprojResolveAssemblyReference.cache
+c:\users\osipenko\documents\visual studio 2015\Projects\ListAndCollection\ListAndCollection\obj\Debug\ListAndCollection.exe
+c:\users\osipenko\documents\visual studio 2015\Projects\ListAndCollection\ListAndCollection\obj\Debug\ListAndCollection.pdb
