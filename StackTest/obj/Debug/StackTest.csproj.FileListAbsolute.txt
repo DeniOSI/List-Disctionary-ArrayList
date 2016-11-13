@@ -1,0 +1,9 @@
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\StackTest\bin\Debug\StackTest.dll
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\StackTest\bin\Debug\StackTest.pdb
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\StackTest\bin\Debug\ListAndCollection.StackBL.dll
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\StackTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\StackTest\bin\Debug\ListAndCollection.StackBL.pdb
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\StackTest\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\StackTest\obj\Debug\StackTest.csprojResolveAssemblyReference.cache
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\StackTest\obj\Debug\StackTest.dll
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\StackTest\obj\Debug\StackTest.pdb

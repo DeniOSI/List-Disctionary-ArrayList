@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ListAndCollection.StackBL;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace ListAndCollection
     {
         static void Main(string[] args)
         {
-            #region List<T>
+           #region List<T>
             #region MyRegion
             //List<string> strlist = new List<string>();
             //strlist.Capacity = 5; //Глубина списка без изменения размера
@@ -99,18 +100,18 @@ namespace ListAndCollection
             //{
             //    Console.WriteLine(item);
             //}
-            //Console.WriteLine("позиция первого вхождения = {0}", strlist.FindIndex(x=>x.Contains("string")));
+            //Console.WriteLine("позиция первого вхождения = {0}", strlist.FindIndex(x => x.Contains("string")));
             //Console.WriteLine("-----------------BinarySearch-------------");
-            //Console.WriteLine("Поиск {0}" , strlist.BinarySearch("string"));
+            //Console.WriteLine("Поиск {0}", strlist.BinarySearch("string"));
             #endregion
 
             #region LinkType
-            List<ListSS> lss = new List<ListSS>();
+            //List<ListSS> lss = new List<ListSS>();
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            lss.Add(new ListSS("Petrov", 23));
-            lss.Add(new ListSS("Sidorov", 44));
-            lss.Add(new ListSS("Ivanov", 99));
+            //Console.ForegroundColor = ConsoleColor.Cyan;
+            //lss.Add(new ListSS("Petrov", 23));
+            //lss.Add(new ListSS("Sidorov", 44));
+            //lss.Add(new ListSS("Ivanov", 99));
 
 
             //foreach (var item in lss)
@@ -160,23 +161,99 @@ namespace ListAndCollection
             #endregion
 
             #region Dictionary<TKey, TValue>
-            Dictionary<int, string> mydict = new Dictionary<int, string>();
-            mydict.Add(1, "C#");
-            mydict.Add(2, "best");
-            mydict.Add(3, "in ");
-            mydict.Add(4, "world");
+            //Dictionary<int, string> mydict = new Dictionary<int, string>();
+            //mydict.Add(1, "C#");
+            //mydict.Add(2, "best");
+            //mydict.Add(3, "in ");
+            //mydict.Add(4, "world");
 
-            foreach (var item in mydict)
-            {
-                Console.WriteLine(item.Value);
-            }
+            //foreach (var item in mydict)
+            //{
+            //    Console.WriteLine(item.Value);
+            //}
 
-            Console.WriteLine("Key 2 is - > {0}", mydict.ContainsKey(2));
-            Console.WriteLine("Value \" in \" is - > {0}", mydict.ContainsValue("in"));
-            
+            //Console.WriteLine("Key 2 is - > {0}", mydict.ContainsKey(2));
+            //Console.WriteLine("Value \" in \" is - > {0}", mydict.ContainsValue("in"));
+
 
             #endregion
 
+            #region Stack //LIFO
+            //Stack st = new Stack();
+            //st.Push("C#");
+            //st.Push(1);
+            //st.Push('c');
+            //st.Push(1.5);
+
+            //Console.WriteLine(StackS.PrintStack(st));
+            #endregion
+
+            #region Queue Queue<T> //FIFO
+            //Queue qe = new Queue();
+            //for (char ch = 'a'; ch < 'e'; ch++)
+            //{
+            //    qe.Enqueue(ch);
+            //}
+            //foreach (var item in qe) //peek
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Console.WriteLine(qe.Dequeue());
+            //Console.WriteLine("++++++++++++++++++");
+            //foreach (var item in qe)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
+            #region LinkedList<T>
+            //LinkedList<string> lls = new LinkedList<string>();
+            //LinkedListNode<string> llns = null;
+
+            //lls.AddFirst("C#");
+            //lls.AddFirst("the");
+            //lls.AddFirst("best");
+            //lls.AddFirst("language");
+            //lls.AddLast("some");
+            //lls.AddAfter(lls.First, "insert" );
+            //LinkedListNode<string> node;
+            //Console.WriteLine("++++++++++from first to last +++++++++");
+            //for(node = lls.First; node !=null; node=node.Next)
+            //{
+            //    Console.WriteLine(node.Value);
+            //}
+            //Console.WriteLine("++++++++++from first to last +++++++++");
+            //for(node = lls.Last; node != null; node = node.Previous)
+            //{
+            //    Console.WriteLine(node.Value);
+            //}
+            //Console.WriteLine("+++++++++++++find++++++++++++++++++++++");
+            //try
+            //{
+
+            //    Console.WriteLine(lls.Find("language").Value);
+
+            //}
+            //catch (Exception ex)
+            //{
+
+            //    Console.WriteLine(ex.Message);
+            //}
+            #endregion
+
+            #region SortList
+            SortedList<string, int> sl = new SortedList<string, int>();
+            sl.Add("Helen", 15);
+            sl.Add("Bob", 23);
+            sl.Add("Dmitry", 48);
+            sl.Add("Demi", 44);
+            foreach (var item in sl)
+            {
+                Console.WriteLine(item.Value + " " + item.Key);
+            }
+            Console.WriteLine(sl.IndexOfKey("Helen"));// индекс елемента по ключу
+            Console.WriteLine(sl.IndexOfValue(15)); //индекс елемента по значению
+            #endregion
             Console.ReadKey();
         }
     }

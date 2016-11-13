@@ -1,0 +1,5 @@
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\ListAndCollection.StackBL\bin\Debug\ListAndCollection.StackBL.dll
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\ListAndCollection.StackBL\bin\Debug\ListAndCollection.StackBL.pdb
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\ListAndCollection.StackBL\obj\Debug\ListAndCollection.StackBL.dll
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\ListAndCollection.StackBL\obj\Debug\ListAndCollection.StackBL.pdb
+C:\Users\Osipenko\documents\visual studio 2015\Projects\ListAndCollection\ListAndCollection.StackBL\obj\Debug\ListAndCollection.StackBL.csprojResolveAssemblyReference.cache
